@@ -1,8 +1,10 @@
 
-import { IRecipesResponse } from '../interfaces/recipes.interface'
+// import { IRecipesResponse } from '../interfaces/recipes.interface'
+
+import { IRecipeProps } from "../interfaces/recipes.interface"
 
 interface RecipeProps {
-    recipe: IRecipesResponse
+    recipe: IRecipeProps
 }
 
 const Recipe = ({ recipe }: RecipeProps) => {

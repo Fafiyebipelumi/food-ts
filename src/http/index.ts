@@ -23,7 +23,7 @@ const Client = async ({ url, method, params, data }: AxiosParams) => {
             baseURL: BASE_URL,
             params,
             headers: {
-                'X-RapidAPI-Key': import.meta.env.RAPID_API_KEY,
+                'X-RapidAPI-Key': '50e5875042mshc342f1fcf2d5632p14862ajsnc51b3f2e63c7',
                 'X-RapidAPI-Host': 'tasty.p.rapidapi.com'
             },
             data: data && JSON.stringify(data)
