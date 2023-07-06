@@ -36,6 +36,4 @@ const Client = async ({ url, method, params, data }: AxiosParams) => {
     }
 }
 
-
-
 export default Client;
